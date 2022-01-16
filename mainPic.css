@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 100;
+    color: #333333;
+}
+.container {
+    display: flex;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    border: 1px solid silver;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    height: 300px;
+}
+.card>h3 {
+    color: #b6682b;
+}
+i {
+    font-size: 30px;
+}
+.subscribe {
+    box-sizing: border-box;
+    padding: 0 5px;
+    text-align: center;
+}
+.btn {
+    background-color: #24bd9e;
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+    border: 0 solid;
+}
+.btn:hover {
+    cursor: pointer;
+}
