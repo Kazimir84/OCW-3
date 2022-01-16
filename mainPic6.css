@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+.cardsAB {
+    display: flex;
+    height: 200px;
+}
+.cardsAB>div {
+    background-color: blue;
+    border: 1px solid;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.cardC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 100px;
+    margin: 0 5px 5px 5px;
+    border: 1px solid;
+}
+.cardsEFG {
+    display: flex;
+
+}
+.cardsEFG>div {
+    display: flex;
+    background-color: orangered;
+    border: 1px solid;
+    width: 33%;
+    margin: 0 5px 5px 5px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}

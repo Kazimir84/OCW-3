@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    height: 50px;
+    border: 1px solid;
+    margin: 0 5px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+.wrapper>div {
+    text-align: center;
+    border: 1px solid;
+}
+
+.discription {
+    position: relative;
+    width: 70%;
+    height: 50px;
+    top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    background-color: green;
+}
+.pic {
+    width: 30%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px 5px 0;
+    background-color: blueviolet;
+}
+
+.wrapperCart {
+    display: flex;
+    width: 70%;
+    position: relative;
+    bottom: 100px;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-evenly;
+
+}
+.cart {
+    display: flex;
+    border: 1px solid;
+    background: aqua;
+    height: 93px;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6px;
+}
